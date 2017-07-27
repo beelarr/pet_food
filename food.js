@@ -155,16 +155,42 @@ function show_cat_food(cat_food) {
 
     document.querySelector('#c-type04').innerHTML = cat_food.cat_brands[1].types[1].type
     document.querySelector('#c-age08').innerHTML = cat_food.cat_brands[1].types[1].volumes[0].age
-    document.querySelector('#c-size020').innerHTML = cat_food.cat_brands[1].types[0].volumes[0].name
-    document.querySelector('#c-price020').innerHTML = cat_food.cat_brands[1].types[0].volumes[0].price
-    document.querySelector('#c-size021').innerHTML = cat_food.cat_brands[1].types[0].volumes[1].name
-    document.querySelector('#c-price021').innerHTML = cat_food.cat_brands[1].types[0].volumes[1].price
+    document.querySelector('#c-size020').innerHTML = cat_food.cat_brands[1].types[1].volumes[0].name
+    document.querySelector('#c-price020').innerHTML = cat_food.cat_brands[1].types[1].volumes[0].price
+    document.querySelector('#c-size021').innerHTML = cat_food.cat_brands[1].types[1].volumes[1].name
+    document.querySelector('#c-price021').innerHTML = cat_food.cat_brands[1].types[1].volumes[1].price
 
     document.querySelector('#c-age09').innerHTML = cat_food.cat_brands[1].types[1].volumes[2].age
-    document.querySelector('#c-size022').innerHTML = cat_food.cat_brands[1].types[0].volumes[2].name
-    document.querySelector('#c-price022').innerHTML = cat_food.cat_brands[1].types[0].volumes[2].price
-    document.querySelector('#c-size023').innerHTML = cat_food.cat_brands[1].types[0].volumes[3].name
-    document.querySelector('#c-price023').innerHTML = cat_food.cat_brands[1].types[0].volumes[3].price
+    document.querySelector('#c-size022').innerHTML = cat_food.cat_brands[1].types[1].volumes[2].name
+    document.querySelector('#c-price022').innerHTML = cat_food.cat_brands[1].types[1].volumes[2].price
+    document.querySelector('#c-size023').innerHTML = cat_food.cat_brands[1].types[1].volumes[3].name
+    document.querySelector('#c-price023').innerHTML = cat_food.cat_brands[1].types[1].volumes[3].price
+
+console.log(cat_food.cat_brands[1].types[2].volumes[0].age)
+    document.querySelector('#c-type05').innerHTML = cat_food.cat_brands[1].types[2].type
+    document.querySelector('#c-age010').innerHTML = cat_food.cat_brands[1].types[2].volumes[0].age
+    document.querySelector('#c-size024').innerHTML = cat_food.cat_brands[1].types[2].volumes[0].name
+    document.querySelector('#c-price024').innerHTML = cat_food.cat_brands[1].types[2].volumes[0].price
+    document.querySelector('#c-size025').innerHTML = cat_food.cat_brands[1].types[2].volumes[1].name
+    document.querySelector('#c-price025').innerHTML = cat_food.cat_brands[1].types[2].volumes[1].price
+    document.querySelector('#c-age11').innerHTML = cat_food.cat_brands[1].types[2].volumes[2].age
+    document.querySelector('#c-size026').innerHTML = cat_food.cat_brands[1].types[2].volumes[2].name
+    document.querySelector('#c-price026').innerHTML = cat_food.cat_brands[1].types[2].volumes[2].price
+    document.querySelector('#c-size027').innerHTML = cat_food.cat_brands[1].types[2].volumes[3].name
+    document.querySelector('#c-price027').innerHTML = cat_food.cat_brands[1].types[2].volumes[3].price
+
+    document.querySelector('#c-type06').innerHTML = cat_food.cat_brands[1].types[3].type
+    document.querySelector('#c-age012').innerHTML = cat_food.cat_brands[1].types[3].volumes[0].age
+    document.querySelector('#c-size028').innerHTML = cat_food.cat_brands[1].types[3].volumes[0].name
+    document.querySelector('#c-price028').innerHTML = cat_food.cat_brands[1].types[3].volumes[0].price
+    document.querySelector('#c-size029').innerHTML = cat_food.cat_brands[1].types[3].volumes[1].name
+    document.querySelector('#c-price029').innerHTML = cat_food.cat_brands[1].types[3].volumes[1].price
+    document.querySelector('#c-age13').innerHTML = cat_food.cat_brands[1].types[3].volumes[2].age
+    document.querySelector('#c-size030').innerHTML = cat_food.cat_brands[1].types[3].volumes[2].name
+    document.querySelector('#c-price030').innerHTML = cat_food.cat_brands[1].types[3].volumes[2].price
+    document.querySelector('#c-size031').innerHTML = cat_food.cat_brands[1].types[3].volumes[3].name
+    document.querySelector('#c-price031').innerHTML = cat_food.cat_brands[1].types[3].volumes[3].price
+
 
 
 
