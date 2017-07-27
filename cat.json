@@ -1,5 +1,5 @@
 {
-  "dog_brands": [
+  "cat_brands": [
     {   "name": "Purrina",
       "types": [
         {
@@ -35,6 +35,7 @@
                     },
                     {
                       "type": "Bengal",
+                      "volumes": [
                       {
                         "age": "Kitten",
                         "name": "20oz",
@@ -57,7 +58,7 @@
                         "price": 24.99
                       },
                       {
-                        "age": "Kitten",
+                        "age": "Elite",
                         "name": "64oz",
                         "price": 34.99
                       }
@@ -88,7 +89,7 @@
                           "price": 24.99
                         },
                         {
-                          "age": "Kitten",
+                          "age": "Elite",
                           "name": "64oz",
                           "price": 34.99
                         }
@@ -119,7 +120,7 @@
                           "price": 24.99
                         },
                         {
-                          "age": "Kitten",
+                          "age": "Elite",
                           "name": "64oz",
                           "price": 34.99
                         }
